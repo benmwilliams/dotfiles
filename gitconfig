@@ -1,0 +1,23 @@
+[push]
+  default = current
+
+[color]
+  ui = auto
+
+[alias]
+  ca = commit --amend
+  ci = commit -v
+  co = checkout
+  pr = !gh pull-request
+  st = status
+  up = !git fetch origin && git rebase origin/master
+  fp = push -f
+  rmb = branch -d
+
+[core]
+  edit = vim
+	excludesfile = /Users/eli/.gitignore
+
+[user]
+  name = Elijah Kim
+  email = kimelijah90@gmail.com
