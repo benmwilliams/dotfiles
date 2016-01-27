@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/eli/neo/censible-api/app/controllers/v1'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/eli/dev/speak_easy_api/web'
+let g:netrw_dirhist_2='/Users/eli/dev/speak_easy_api/web/templates'
+let g:netrw_dirhist_3='/Users/eli/dev/speak_easy_api/web'
+let g:netrw_dirhist_4='/Users/eli/dev/speak_easy_api/web/views'
+let g:netrw_dirhist_5='/Users/eli/dev/speak_easy_api/web'

@@ -102,6 +102,10 @@ set numberwidth=5
 
 """ Auto commands
 autocmd BufNewFile,BufReadPost *.md,*.markdown set filetype=markdown
+autocmd BufNewFile,BufRead *.json set ft=javascript
+
+""" JSX bindings to js files
+let g:jsx_ext_required = 0
 
 " Tab completion
 " will insert tab at beginning of line,
